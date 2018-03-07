@@ -1,0 +1,36 @@
+body{
+    background-color: #ccccff;
+}
+
+.back-auth{
+    width: 70%;
+    height: 90vh;
+    background-color: rgba(45, 58, 75, 0.5);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.back-auth-post{
+    width: 60%;
+    height: 90%;
+    margin: auto;
+    background-color: #455871; 
+}
+.back-auth div h4{
+    padding: 30px;
+}
+
+.imagenFace{
+    max-width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.textInstructions{
+    text-align: center;
+    color: white;
+}
