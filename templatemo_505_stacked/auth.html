@@ -35,12 +35,27 @@
                 <div class="heading">
                     <h4>Inicia Sesion!</h4>
                 </div>
-                <img src="img/faceDect.jpg" alt="" class="imagenFace">
-                <p class="textInstructions">Ponte en frente de la camara para que puedas entrar al sistema</p>
+                <div class="faceAuth">
+                    <img src="img/faceDect.jpg" alt="" class="imagenFace">
+                    <p class="textInstructions">Ponte en frente de la camara para que puedas entrar al sistema</p>
+                </div>
+
+                <div class="userAuth">
+                    <p>Ingresa tu usuario</p>
+                    <input type="text" placeholder="Usuario">
+                    <p>Ingresa tu contrasena</p>
+                    <input type="text" placeholder="Contrasena">
+                    <div class="primary-button">
+                        <a href="#"> Enviar</a>
+                    </div>
+                </div>
+                <div class="primary-button">
+                    <a href="#" id="normalLogin">Usuario/Contrasena</a>
+                </div>
+
+                
             </div>
-            <div class="primary-button">
-                <a href="#">Usuario/Contrasena</a>
-            </div>
+
         </section>
     </main>
 
@@ -51,5 +66,6 @@
 
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/auth.js"></script>
 </body>
 </html>
